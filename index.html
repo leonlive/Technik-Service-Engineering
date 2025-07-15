@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Technik-Service für SAT-Anlagen, Netzwerke, Computerhilfe, Videoüberwachung, SMART-Home & mehr. Installation, Reparatur & Beratung.">
+  <meta name="keywords" content="SAT-Anlage, Netzwerkservice, Computerhilfe, Videoüberwachung, Smart Home, Technikservice, Installation, Datenrettung, Elektroplanung, Elektronik, Video, Security, Full Service, Voll Service, Engineering">
+  <meta name="author" content="Technik-Service & Engineering">
+  <title>Technik-Service & Installation – SAT · Netzwerk · Smart Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+      <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#6B21A8',
+            secondary: '#A855F7'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .icon-button {
+      padding: 0.5rem;
+      border-radius: 9999px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      background-color: white;
+      color: #6B21A8;
+      transition: transform 0.2s;
+      cursor: pointer;
+    }
+    .icon-button:hover {
+      transform: scale(1.1);
+    }
+  </style>
+  <style>
+@keyframes flash {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.flash-violet-pink {
+  color: #D73894; /* brillanter violett-pinker Ton */
+  animation: flash 3s infinite;
+  font-weight: bold;
+}
+</style>
+  <style>
+@keyframes flash {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.flash-color {
+  color: gold;
+  animation: flash 3s infinite;
+  font-weight: bold;
+}
+</style>
+  <script>
+    function setTheme() {
+      const h = new Date().getHours();
+      let bg = '';
+      if (h >= 6 && h < 12) {
+        bg = 'from-purple-200 via-violet-200 to-purple-300';
+      } else if (h < 18) {
+        bg = 'from-violet-300 via-purple-400 to-violet-400';
+      } else {
+        bg = 'from-purple-800 via-violet-700 to-purple-900';
+      }
+      document.body.className = 'bg-gradient-to-r ' + bg + ' text-gray-100 font-sans transition-all duration-1000';
+    }
+    window.onload = setTheme;
+    setInterval(setTheme, 3600000);
+  </script>
+</head>
+<body class="bg-gradient-to-r from-purple-200 via-violet-200 to-purple-300 text-gray-900 font-sans transition-all duration-1000">
+
+<header class="bg-primary text-white p-6 shadow-lg flex justify-between items-center">
+  <div>
+    <h1 class="text-3xl font-bold">Technik-Service & Engineering</h1>
+    <p class="text-sm mt-1">Zuverlässig · Schnell · Kompetent - Sicher in die Zukunft – mit Technik, nicht mit Policen. Tag und Nacht. Auch wenn Sie im Urlaub sind!</p>
+  </div>
+  <div class="flex gap-4 items-center">
+    <button onclick="toggleTheme()" class="icon-button" title="Light/Dark wechseln">🌓</button>
+    <button onclick="toggleLight()" class="icon-button" title="SAT Licht wechseln">📡</button>
+    <button onclick="toggleLight()" class="icon-button" title="Smart Home Licht">🏡</button>
+  </div>
+</header>
+
+  <main class="p-6 max-w-5xl mx-auto space-y-10">
+
+    <section>
+    <h2 class="text-2xl font-semibold mb-4 border-b-2 border-primary pb-2"><span class="flash-violet-pink"><center>Jetzt können auch Sie von unserer über 35-jährigen Voll-Service<br>-professionellen Erfahrung profitieren!</span></h2>
+      <h2 class="text-2xl font-semibold mb-4 border-b-2 border-primary pb-2">Unsere Leistungen</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+
+        <div class="bg-white bg-opacity-80 p-4 rounded-xl shadow text-black">
+          <h3 class="text-xl font-bold text-primary mb-2">📡 SAT-Anlagen</h3>
+          <p>Installation und Wartung von Satellitenanlagen inkl. Ausrichtung und Fehlerbehebung.</p>
+        </div>
+        <div class="bg-white bg-opacity-80 p-4 rounded-xl shadow text-black">
+          <h3 class="text-xl font-bold text-primary mb-2">🌐 Netzwerk-Service</h3>
+          <p>Planung und Einrichtung von Netzwerken für Privat und Unternehmen, inkl. Diagnose.</p>
+        </div>
+        <div class="bg-white bg-opacity-80 p-4 rounded-xl shadow text-black">
+          <h3 class="text-xl font-bold text-primary mb-2">🛠️ Computer Reparatur & Konfiguration</h3>
+          <p>Reparatur, Optimierung und Einrichtung von Computern, Laptops und Software.</p>
+        </div>
+        <div class="bg-white bg-opacity-80 p-4 rounded-xl shadow text-black">
+          <h3 class="text-xl font-bold text-primary mb-2">⚙️ Installation & Problemlösungen</h3>
+          <p>Schnelle Hilfe bei Technikproblemen, Einrichtung von Geräten und Softwarelösungen.</p>
+        </div>
+        <div class="bg-white bg-opacity-80 p-4 rounded-xl shadow text-black">
+          <h3 class="text-xl font-bold text-primary mb-2">💾 Datenrettung (Data Recovery)</h3>
+          <p>Rettung gelöschter oder beschädigter Daten von Festplatten, USB-Sticks & SD-Karten.</p>
+        </div>
+        <div class="bg-white bg-opacity-80 p-4 rounded-xl shadow text-black">
+          <h3 class="text-xl font-bold text-primary mb-2">🔐 Datensicherung (Backup)</h3>
+          <p>Sichere Backup-Konzepte für Zuhause & Unternehmen – lokal & cloud-basiert.</p>
+        </div>
+        <div class="bg-white bg-opacity-80 p-4 rounded-xl shadow text-black">
+          <h3 class="text-xl font-bold text-primary mb-2">📋 Elektro-Planung</h3>
+          <p>Planung und Umsetzung kleinerer Elektroprojekte für Haus & Gewerbe.</p>
+        </div>
+        <div class="bg-white bg-opacity-80 p-4 rounded-xl shadow text-black">
+          <h3 class="text-xl font-bold text-primary mb-2">⚙️🛠️💡 Technik-Service & Engineering</h3>
+            <p><b>Sie träumen von etwas, das es (noch) nicht gibt – klingt wie eine „Mission Impossible“?</b><i><br>
+- Für uns ist es eine Freude, Ihre Träume und Wünsche in die Realität umzusetzen.
+Sagen Sie uns einfach, was Sie sich vorstellen!</i></p>
+     </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-semibold mb-4 border-b-2 border-primary pb-2">Speziallösungen & Neubau-Services</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white bg-opacity-80 p-4 rounded-xl shadow text-black">
+          <h3 class="text-xl font-bold text-primary mb-2">🔌 Steckdosen & MMD-Konfiguration</h3>
+          <p>Professionelle Installation von Steckdosen und Multimedia-Dosen bei Neubauten & Sanierungen.</p>
+        </div>
+        <div class="bg-white bg-opacity-80 p-4 rounded-xl shadow text-black">
+          <h3 class="text-xl font-bold text-primary mb-2">📹 Videoüberwachung</h3>
+          <p>Planung und Umsetzung komplexer Videoüberwachungsanlagen für Haus und Firma.</p>
+        </div>
+        <div class="bg-white bg-opacity-80 p-4 rounded-xl shadow text-black">
+          <h3 class="text-xl font-bold text-primary mb-2">📺 SAT- & TV-Anlagen im Neubau</h3>
+          <p>Installation und Verteilung von TV- und SAT-Anlagen in Neu- oder Umbauten.</p>
+        </div>
+        <div class="bg-white bg-opacity-80 p-4 rounded-xl shadow text-black">
+          <h3 class="text-xl font-bold text-primary mb-2">🛍️ Einkaufsberatung</h3>
+          <p>Hilfe beim Kauf großer Gerätemengen – neutral, effizient & kostensparend.</p>
+        </div>
+        <div class="bg-white bg-opacity-80 p-4 rounded-xl shadow text-black">
+          <h3 class="text-xl font-bold text-primary mb-2">🏡 SMART HOME Lösungen</h3>
+          <p>Individuelle Systeme zur Hausautomatisierung – flexibel & benutzerfreundlich.<br>
+<i>Von der Fernsteuerung einzelner Geräte wie Garagentor oder Beleuchtung bis hin zur vollumfänglichen Hauskontrolle – auch per Sprachbefehl mit Ihrer eigenen Stimme!</i></p>
+        </div>
+        <div class="bg-white bg-opacity-80 p-4 rounded-xl shadow text-black">
+          <h3 class="text-xl font-bold text-primary mb-2">🔧 Handwerkspartner-Netzwerk</h3>
+          <p>Zusammenarbeit mit Elektrikern, Bauunternehmen & mehr – alles aus einer Hand.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-semibold mb-4 border-b-2 border-primary pb-2">Kontakt</h2>
+      <p>📱 Handy: <a href="tel:+4915204558222" class="text-green-200 underline hover:text-green-600" 
+                   onmouseover="updateStatus('📞 Danke für Ihren Anruf!')"
+                   onmouseout="updateStatus('Willkommen auf Technik-Service!')">
+         +49 123 456 7890
+  </a></p>
+      
+      <p>✉️ E-Mail: <a href="mailto:gttsat@gmail.com" class="text-green-200 underline hover:text-green-600"
+                   onmouseover="updateStatus('📧 Vielen Dank für Ihre Nachricht!')"
+                   onmouseout="updateStatus('Willkommen auf Technik-Service & Engineering Team!')">
+      gttsat@gmail.com</a></p>
+      <p>📍 Standort: Schlaterstr.2, 73037 Göppingen, BW</p>
+      <p>📞 Telefon: 07161 3543219</p>
+      <p>📠 Fax: 07161 3541697</p>
+    </section>
+
+  </main>
+
+  <footer class="bg-primary text-white p-4 text-center text-sm mt-10">
+    © 2025 Technik-Service · Alle Rechte vorbehalten
+  </footer>
+  <br><br>
+  
+   <!-- Eigene Statusleiste -->
+    <div id="statusbar" class="fixed bottom-0 left-0 w-full bg-gray-900 text-white text-sm p-2 text-center z-50">
+        
+    </div>
+
+    <script>
+    function updateStatus(message) {
+        document.getElementById('statusbar').textContent = message;
+    }
+    </script>
+  
+  <script>
+  let dark = false;
+  let customLight = false;
+
+  function toggleTheme() {
+    dark = !dark;
+    if (dark) {
+      document.body.className = 'bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white font-sans transition-all duration-1000';
+    } else {
+      setLightMode();
+    }
+  }
+
+  function toggleLight() {
+    customLight = !customLight;
+    if (customLight) {
+      document.body.className = 'bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 text-black font-sans transition-all duration-1000';
+    } else {
+      setLightMode();
+    }
+  }
+
+  function setLightMode() {
+    document.body.className = 'bg-gradient-to-r from-purple-200 via-violet-200 to-purple-300 text-gray-900 font-sans transition-all duration-1000';
+  }
+</script>
+
+</body>
+</html>
