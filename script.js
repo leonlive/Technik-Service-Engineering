@@ -7,7 +7,7 @@ const bgImages = [
   'url("images/Big-SAT.jpg")'
 ];
 
-let currentBgIndex = 0;
+let currentBgIndex = -1;
 
 function activateSmartHome() {
   const header = document.getElementById('header');
