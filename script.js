@@ -20,7 +20,7 @@ function activateSmartHome() {
   // Update header (your existing dynamic video setup)
   header.innerHTML = `
     <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover z-0">
-      <source src="videos/smart-home.mp4" type="video/mp4">
+      <source src="https://drive.google.com/file/d/1RF82k_Qk2-QiVL0EktFB-pGHS4HZeb2M/view?usp=sharing" type="video/mp4">
       Ihr Browser unterstützt kein Video.
     </video>
     <div class="absolute inset-0 bg-black bg-opacity-40 z-10 flex items-center justify-center text-white">
