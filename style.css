@@ -1,0 +1,10 @@
+@keyframes stars {
+  0% { background-position: 0 0; }
+  100% { background-position: 1000px 1000px; }
+}
+
+.matrix-bg {
+  background: url('images/matrix-bg.gif') repeat;
+  animation: stars 60s linear infinite;
+  color: white;
+}
