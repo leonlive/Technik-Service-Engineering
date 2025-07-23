@@ -18,15 +18,14 @@ function activateSmartHome() {
   if (overlay) overlay.remove();
 
   // Update header (your existing dynamic video setup)
-  header.innerHTML = `
-    <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover z-0">
-      <source src="https://drive.google.com/file/d/1RF82k_Qk2-QiVL0EktFB-pGHS4HZeb2M/view?usp=sharing" type="video/mp4">
-      Ihr Browser unterstützt kein Video.
-    </video>
-    <div class="absolute inset-0 bg-black bg-opacity-40 z-10 flex items-center justify-center text-white">
-      <h1 class="text-4xl font-bold">SMART HOME – Willkommen in der Zukunft!!!</h1>
-    </div>
-  `;
+ header.innerHTML = `
+  <iframe 
+    src="https://player.vimeo.com/video/1103921662?autoplay=1&loop=1&muted=1&background=1" 
+    class="absolute top-0 left-0 w-full h-full"
+    frameborder="0"
+    allow="autoplay; fullscreen"
+  ></iframe>
+`;
 
   // Cycle to the next background (keeps all classes, only updates image)
   currentBgIndex = (currentBgIndex + 1) % bgImages.length;
