@@ -25,6 +25,9 @@ function activateSmartHome() {
     frameborder="0"
     allow="autoplay; fullscreen"
   ></iframe>
+  <div class="absolute inset-0 bg-black bg-opacity-40 z-10 flex items-center justify-center text-white">
+      <h1 class="text-4xl font-bold">SMART HOME – Willkommen in der Zukunft!!!</h1>
+    </div>
 `;
 
   // Cycle to the next background (keeps all classes, only updates image)
