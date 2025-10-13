@@ -10,6 +10,7 @@ const bgImages = [
 // Може да е МИКС – Vimeo ID, Vimeo URL, YouTube, Drive preview, .mp4/.webm:
 const videos = [
   '1103921662', // Vimeo (само ID) – твоят дефолтен
+  '1126968160', // Viemo Invideo 2
   'https://youtu.be/ozfdYn97QFs',
    'https://player.vimeo.com/video/355087337',
   // 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
